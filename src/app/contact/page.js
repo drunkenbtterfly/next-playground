@@ -29,14 +29,14 @@ export default function Contact() {
       </p>
 
       <div className="flex w-1/2">
-      <BlurText
-        text="Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!"
-        delay={100}
-        animateBy="words"
-        direction="top"
-        onAnimationComplete={handleAnimationComplete}
-        className="text-2xl mb-8"
-      />
+        <BlurText
+          text="Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!Isn't this so cool?!"
+          delay={100}
+          animateBy="words"
+          direction="top"
+          onAnimationComplete={handleAnimationComplete}
+          className="text-2xl mb-8"
+        />
       </div>
     </div>
   );
