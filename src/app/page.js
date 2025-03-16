@@ -1,13 +1,13 @@
-"use client"; // Tambahkan ini agar komponen menjadi client component
+"use client";
 
 import Image from "next/image";
-import Waves from "./components/Waves"; // Perbaikan path relatif
-import ScrollVelocity from "./components/ScrollVelocity"; // Perbaikan path relatif
-import { useState } from "react"; // Gunakan useState hanya di client component
+import Waves from "./components/Waves";
+import ScrollVelocity from "./components/ScrollVelocity";
+import { useState } from "react";
 import Lanyard from './components/Lanyard';
 
 export default function Home() {
-  const [velocity] = useState(120); // Deklarasikan velocity sebelum digunakan
+  const [velocity] = useState(50);
 
   return (
     <>
@@ -26,26 +26,23 @@ export default function Home() {
           className="z-60 top-14"
         /> */}
 
-        <ScrollVelocity
-          texts={["React Bits", "Scroll Down"]}
-          velocity={velocity} // Gunakan velocity yang sudah dideklarasikan
-          className="custom-scroll-tex"
-        />
-
-        <div className="flex flex-col md:flex-row gap-6 justify-center items-center text-center mt-4">
-          {/* Teks */}
+        <div className="flex flex-col md:flex-row gap-6 justify-center items-center text-center mt-12">
           <div className="md:w-1/2 w-full">
-            <h1 className="text-4xl font-bold">Selamat Datang di Portofolio Saya</h1>
+            <h1 className="text-4xl font-bold">SKIBIDI SKIBIDI SKIBIDI SKIBIDI</h1>
             <p className="text-lg">
-              Saya seorang pengembang web yang berfokus pada UI/UX dan Frontend Development.
+              just skibidi just skibidi just skibidi just skibidi just skibidi just skibidi just skibidi just skibidi
             </p>
           </div>
 
-          {/* Model 3D Lanyard */}
           <div className="md:w-1/2 w-full flex justify-center">
             <Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} />
           </div>
         </div>
+        <ScrollVelocity
+          texts={["IPAN", "SKIBIDI"]}
+          velocity={velocity}
+          className="custom-scroll-tex"
+        />
       <div className="h-screen max-w-max"></div>
     </>
   );

@@ -8,7 +8,6 @@ export default function Portfolio() {
         delay={150}
         animateBy="words"
         direction="top"
-        onAnimationComplete={handleAnimationComplete}
         className="text-2xl mb-8"
       />
     </div>
